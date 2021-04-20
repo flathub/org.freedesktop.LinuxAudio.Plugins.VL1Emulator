@@ -1,4 +1,5 @@
 {
+    "end-of-life": "The branch is deprecated",
     "skip-icons-check": true,
     "skip-arches": ["arm"]
 }
