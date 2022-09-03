@@ -1,14 +1,17 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.VL1Emulator",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
-    "sdk": "org.freedesktop.Sdk//21.08",
-    "runtime-version": "21.08",
+    "sdk": "org.freedesktop.Sdk//22.08",
+    "runtime-version": "stable",
     "build-extension": true,
     "appstream-compose": false,
-    "branch": "21.08",
+    "branch": "22.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/VL1Emulator"
     },
+    "cleanup": [
+        "/bin"
+    ],
     "modules": [
         {
             "name": "vl1",
